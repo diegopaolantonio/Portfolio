@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
+/************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
+/* RESET MARGIN Y PADDING, Y COLOR DE FONDO */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #c9f8c3; }
+
+/*ESTILO GENERAL DE LOS BLOQUES DE INFORMACION*/
+header nav, footer, .clientes, .staffInicio, .servicioInicio {
+  border: 2px solid black;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+  background-color: ghostwhite; }
+
+/* HEADER */
+header {
+  padding: 15px 0px 15px 0px; }
+  header nav {
+    margin: 0px;
+    padding: 0px; }
+    header nav .boton {
+      background-color: #c9f8c3; }
+    header nav Img {
+      width: 35px;
+      height: 35px;
+      margin-right: 5px; }
+    header nav ul li {
+      text-align: right; }
+      header nav ul li:hover {
+        font-size: 1.25rem;
+        transition: all 0.5s; }
+    header nav .enlace a:hover {
+      color: darkgreen; }
+
+/* FOOTER */
+footer {
+  margin: 10px 0px 10px 0px;
+  padding: 10px; }
+  footer .redes {
+    text-align: right;
+    margin-right: 80px; }
+    footer .redes h3 {
+      font-size: 1rem; }
+    footer .redes li {
+      display: inline; }
+  footer p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px;
+    color: blue; }
+
+/* Clase creada para quitar margenes de bootstrap */
+.nuevaClase {
+  margin: 0px;
+  padding: 0px; }
+
+/* ESTILO BLOQUE DE CLIENTES */
+.clientes h2 {
+  font-size: 40px; }
+
+.clientes img {
+  width: 200px;
+  height: 90px;
+  object-fit: contain; }
+
+.clientes ul {
+  margin: 5px;
+  padding: 0px; }
+  .clientes ul li {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "Abyssinica SIL";
+    font-style: serif; }
+
+/************************ ESTILOS PARA PAGINA DE INICIO ************************/
+.staffInicio {
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 10px; }
+  .staffInicio img {
+    padding-bottom: 10px;
+    width: 280px;
+    height: 300px;
+    object-fit: contain; }
+    .staffInicio h1 {
+      color: green; }
+    .staffInicio .informacionStaff {
+    font-size: 18px;
+    font-family: "Abyssinica SIL";
+    font-style: serif; }
+
+.servicioInicio p {
+  font-size: 18px;
+  font-family: "Abyssinica SIL";
+  font-style: serif; }
+
+  .servicioInicio h2 {
+    font-size: 40px;
+    color: green;}
+
+    .servicioInicio h3 {
+      font-size: 24px;}
+
